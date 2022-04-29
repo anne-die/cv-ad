@@ -27,3 +27,35 @@ h6 {
   margin: 0 auto;
   padding: 20px;
 }
+
+.docmain > * {
+  border-top: 3px solid hotpink;
+}
+
+nav > a {
+  margin: 5px;
+}
+
+.navi:link {
+  color: blue;
+}
+
+.navi:visited {
+  color: purple;
+}
+
+.navi:hover {
+  background-color: lightcoral;
+}
+
+.navi:active {
+  background-color: peachpuff;
+}
+
+.docmain > * + * {
+  margin-top: 48px;
+}
+
+.docmain *:first-child {
+  border: none;
+}
