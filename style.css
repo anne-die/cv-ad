@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
-}
-
-html {
   font-family: "Quicksand", sans-serif;
 }
+
 body {
   margin: 0;
 }
@@ -16,4 +14,16 @@ h4,
 h5,
 h6 {
   font-family: "Square Peg", cursive;
+}
+
+.dochead {
+  text-align: center;
+  background-color: lavenderblush;
+  padding-bottom: 50 px 20px;
+}
+
+.docmain {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
