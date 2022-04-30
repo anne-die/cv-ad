@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+}
+
+html {
   font-family: "Quicksand", sans-serif;
 }
 
@@ -58,4 +61,13 @@ nav > a {
 
 .docmain *:first-child {
   border: none;
+}
+
+.dochead > p::after {
+  content: " 🦄";
+}
+
+::selection {
+  background-color: purple;
+  color: peachpuff;
 }
