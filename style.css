@@ -71,3 +71,11 @@ nav > a {
   background-color: purple;
   color: peachpuff;
 }
+
+.experience-heading {
+  display: inline-block;
+}
+
+.experience-subheading {
+  display: inline-block;
+}
